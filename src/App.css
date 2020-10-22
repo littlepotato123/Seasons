@@ -1,0 +1,37 @@
+body {
+    background-color: #1c2b2d;
+    color: #99a8b2;
+}
+
+* {
+    text-decoration: none;
+}
+
+.error {
+    text-align: center;
+    font-size: 100px;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f6f8b;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.nav li span {
+    font-size: 30px;
+    color: white;
+    font-style: normal;
+    padding: 8px;
+    border-radius: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav li span:hover {
+    background-color: #99a8b2;
+}
