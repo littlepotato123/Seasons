@@ -35,3 +35,39 @@ body {
 .nav li span:hover {
     background-color: #99a8b2;
 }
+
+.explain {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.explain div {
+    margin: 15px;
+    font-size: x-large;
+}
+
+.explain .earth {
+    background-color: #f1f6f9;
+    border-radius: 8px;
+    padding: 8px;
+    color: black;
+    grid-row: 1 / 2;
+}
+
+.explain .other {
+    background-color: #394867;
+    border-radius: 8px;
+    padding: 8px;
+    color: white;
+    grid-column: 2 / 3;
+}
+
+.explain .description {
+    background-color: #9ba4b4;
+    border-radius: 8px;
+    padding: 8px;
+    color: black;
+    grid-column: 1 / 3;
+}

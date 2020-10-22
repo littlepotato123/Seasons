@@ -3,7 +3,7 @@ import React from 'react';
 const Explain = () => {
     return (
         <div className="explain">
-            <div>
+            <div className="earth" >
                 <h1>Earth</h1>
                 <h3>Description</h3>
                 <ul>
@@ -20,7 +20,7 @@ const Explain = () => {
                     Based on the region, we would experience different temperatures, but also over the year, the direct sunlight will increase and decrease, causing summer, winter, fall, and spring. This makes our temperature fluctuate throughout the year.
                 </p>
             </div>
-            <div>
+            <div className="other">
                 <h1>Other Planet</h1>
                 <h3>Description</h3>
                 <ul>
@@ -37,7 +37,7 @@ const Explain = () => {
                     Like said above, this other planet does not have any seasons since there is technically no tilt, therefore there is no difference in the amount of direct sunlight that is hitting a certain region. Therefore there is no seasons or drastic differences in the temperatures.
                 </p>
             </div>
-            <div>
+            <div className="description" >
                 <h1>Differences</h1>
                 <ul>
                     <li>Size: Although size seems like it does not matter for the seasons, and that is accurate. The size of the planet does not impact the seasons at all, except for the poles. Since the poles are further away from the sun because of the larger diameter, therefore the poles are going to colder in their respective winters.</li>
