@@ -37,10 +37,14 @@ body {
 }
 
 .explain {
-    padding: 10px;
     display: grid;
+    background-color: #393b44;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    height: 120vh;
 }
 
 .explain div {
@@ -49,23 +53,23 @@ body {
 }
 
 .explain .earth {
-    background-color: #f1f6f9;
+    background-color: #8d93ab;
     border-radius: 8px;
     padding: 8px;
-    color: black;
+    color: #f1f3f8;
     grid-row: 1 / 2;
 }
 
 .explain .other {
-    background-color: #394867;
+    background-color: #d6e0f0;
     border-radius: 8px;
     padding: 8px;
-    color: white;
+    color: #393b44;
     grid-column: 2 / 3;
 }
 
 .explain .description {
-    background-color: #9ba4b4;
+    background-color: #f1f3f8;
     border-radius: 8px;
     padding: 8px;
     color: black;
@@ -87,4 +91,34 @@ body {
 .earth-img {
     position: absolute;
     left: 0px;
+}
+
+/* Finish All Other Planet Setup */
+
+.key {
+    background-color: #f1f6f9;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 15px;
+    position: absolute;
+    right: 0;
+    width: 200px;
+    color: #393b44;
+    font-family: arial;
+}
+
+.desc {
+    background-color: #f1f6f9;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 15px;
+    position: absolute;
+    width: 200px;
+    color: #393b44;
+    font-family: arial;
+    left: 0;
+    top: 80px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
 }

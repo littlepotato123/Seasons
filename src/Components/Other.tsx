@@ -4,10 +4,13 @@ import { Point } from '../Assets/Points';
 import { EarthPoints } from '../Assets/EarthPoints';
 import OtherImage from '../Assets/OtherImage';
 import SunImage from '../Assets/SunImage';
+import Explain from './OtherExplain';
+import Description from './Description';
 
 const Earth = () => {
     const [points, setPoints] = useState<Array<Point>>([]);
-    const [styles, setStyles] = useState<CSS.Properties>({ top: "100px" });
+    const [styles, setStyles] = useState<CSS.Properties>({});
+    const [season, setSeason] = useState('Summer');
 
     useEffect(() => {
         setPoints(EarthPoints);
@@ -16,8 +19,10 @@ const Earth = () => {
 
     return (
         <div>
+            <Explain styles={{}} />
             <OtherImage styles={styles} />
             <SunImage />
+            <Description season={season} />
         </div>
     )
 }

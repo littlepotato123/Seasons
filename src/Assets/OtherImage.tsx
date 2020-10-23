@@ -7,7 +7,7 @@ type OtherImageProps = {
 
 const OtherImage = ({ styles }: OtherImageProps) => {
     return (
-        <svg width="300" height="300" style={styles}>
+        <svg width="300" height="300" style={styles} className="other-img">
             <circle cx="150" cy="150" r="120" stroke="black" stroke-width="2" fill="blue" />
         </svg>
     )
