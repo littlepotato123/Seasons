@@ -9,18 +9,20 @@ import Description from './Description';
 
 const Earth = () => {
     const [points, setPoints] = useState<Array<Point>>([]);
+    const [box, setBox] = useState<CSS.Properties>({});
     const [styles, setStyles] = useState<CSS.Properties>({});
     const [season, setSeason] = useState('Summer');
+    const [you, setYou] = useState<CSS.Properties>({ position: "relative", top: "125px", left: "140px", color: "white" });
 
     useEffect(() => {
         setPoints(EarthPoints);
-        console.log(points);
+        console.log(document.getElementById('other')?.getBoundingClientRect());
     }, [])
 
     return (
         <div>
-            <Explain styles={{}} />
-            <OtherImage styles={styles} />
+            <Explain styles={{ fontSize: "18px", width: "550px" }} />
+            <OtherImage styles={styles} you={you}/>
             <SunImage />
             <Description season={season} />
         </div>

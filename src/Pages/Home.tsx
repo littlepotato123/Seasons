@@ -19,7 +19,7 @@ const Home = () => {
 
     return (
         <div>
-            <button className="switch" onClick={() => setShow(!show)}>{text}</button>
+            <button className="switch" onClick={() => setShow(!show)}>See {text}</button>
             {
                 show ? 
                 <Earth />

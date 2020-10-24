@@ -90,7 +90,6 @@ body {
 
 .earth-img {
     position: absolute;
-    left: 0px;
 }
 
 /* Finish All Other Planet Setup */
@@ -121,4 +120,20 @@ body {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
+}
+
+.other-img {
+    position: absolute;
+}
+
+#earth, #other {
+    position: absolute;
+}
+
+#earth {
+    top: 150px;
+}
+
+#other {
+    top: 150px;
 }
