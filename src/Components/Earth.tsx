@@ -6,24 +6,31 @@ import EarthImage from '../Assets/EarthImage';
 import SunImage from '../Assets/SunImage';
 import Explain from './EarthExplain';
 import Description from './Description';
+import SunRay from '../Assets/SunRay';
+
+interface line {
+    x1: number,
+    x2: number,
+    y1: number,
+    y2: number
+}
 
 const Earth = () => {
-    const [points, setPoints] = useState<Array<Point>>([]);
     const [styles, setStyles] = useState<CSS.Properties>({});
     const [season, setSeason] = useState<string>("Summer");
-    const [you, setYou] = useState<CSS.Properties>({ position: "relative", top: "25px", left: "40px", color: "white" });
+    const [ray, setRay] = useState<line | null>(null);
 
     useEffect(() => {
-        setPoints(EarthPoints);
         console.log(document.getElementById('earth')?.getBoundingClientRect());
     }, [])
 
     return (
         <div>
             <Explain styles={{ fontSize: "18px", width: "500px" }} />
-            <EarthImage styles={styles} you={you} />
+            <EarthImage styles={styles} />
             <SunImage />
             <Description season={season} />
+            <SunRay line={ray} />
         </div>
     );
 };

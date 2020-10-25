@@ -122,7 +122,7 @@ body {
     font-size: 20px;
 }
 
-.other-img {
+.other-img, .you {
     position: absolute;
 }
 
@@ -136,4 +136,11 @@ body {
 
 #other {
     top: 150px;
+}
+
+.sun-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 75px;
 }
