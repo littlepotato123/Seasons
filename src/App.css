@@ -132,6 +132,7 @@ body {
 
 #earth {
     top: 150px;
+    transform: rotateY(-23deg);
 }
 
 #other {

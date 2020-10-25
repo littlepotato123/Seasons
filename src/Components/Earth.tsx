@@ -17,7 +17,7 @@ interface line {
 
 const Earth = () => {
     const [styles, setStyles] = useState<CSS.Properties>({});
-    const [season, setSeason] = useState<string>("Summer");
+    const [season, setSeason] = useState<string>("Top View");
     const [ray, setRay] = useState<line | null>(null);
 
     useEffect(() => {

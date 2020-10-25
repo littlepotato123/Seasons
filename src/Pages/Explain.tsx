@@ -10,6 +10,7 @@ const Explain = () => {
                     <li>Tilt: 23 Degree Tilt</li>
                     <li>Size Relative to Earth: 1 Earth</li>
                     <li>Distance away from Sun: 92.539 million miles</li>
+                    <li>Land Description: Mountain Ranges, Deserts, Ice Caps and Poles, and Civilized Land</li>
                 </ul>
                 <h3>Why we have seasons</h3>
                 <p>
@@ -27,6 +28,7 @@ const Explain = () => {
                     <li>Tilt: 90 Degree Tilt</li>
                     <li>Size Relative to Earth: 3 Earths</li>
                     <li>Distance Away from Sun: 90 million miles</li>
+                    <li>Land Description: Sand Dunes</li>
                 </ul>
                 <h3>Do they have seasons?</h3>
                 <p>
@@ -44,6 +46,7 @@ const Explain = () => {
                     <li>Tilt: Since earth has about an even tilt, different regions will get sunlight at different times, which is the seasons. But, since the other planet will have a rotation or tilt of 90 degrees, it will essentially be horizontal and be at a tilt of 0 degrees. This means that the regions will either be in summer or winter. Also, this shows that the poles (Where the temperature stays constant most of the times and the coldest), instead of being in the on the vertical endes, now would be in the horizontal ends.</li>
                     <li>Distance from the sun: Since the other planet is closer to the sun, the equator in the other planet, would be much warmer than the earth's equator</li>
                     <li>Poles: The poles of earth are on the area that gets the least bit of sunlight, which is the vertical ends, since the ligth get's there the least. But, in the other planet, the poles would be in the horizontal lines because that is the furthest away from the sun.</li>
+                    <li>Land Description: The land is much more civilized on Earth, therefore they have oceans, mountain ranges, and a huge variety of types of land. But, on the other planet, there is no civilization, therefore there is only sand dunes. This is important to think about when talking about perspective of view.</li>
                 </ul>
             </div>
         </div>

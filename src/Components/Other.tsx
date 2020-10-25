@@ -12,7 +12,7 @@ const Earth = () => {
     const [points, setPoints] = useState<Array<Point>>([]);
     const [box, setBox] = useState<CSS.Properties>({});
     const [styles, setStyles] = useState<CSS.Properties>({});
-    const [season, setSeason] = useState('Summer');
+    const [season, setSeason] = useState('Top View');
 
     useEffect(() => {
         setPoints(EarthPoints);
